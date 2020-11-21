@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:7.3.24-apache-buster
 
 # persistent dependencies
 RUN set -eux; \
